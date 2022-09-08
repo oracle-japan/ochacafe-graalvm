@@ -1,0 +1,17 @@
+micronaut:
+  config-client:
+    enabled: true
+
+oci:
+  config:
+    profile: DEFAULT
+    #instance-principal:
+    #  enabled: true
+  config-client:
+    enabled: true
+  vault:
+    config:
+      enabled: true
+    vaults:
+      - ocid: ocid1.vault.oc1.iad.bbpil3ztaacuu.xxxxxxxxxxxxxxx
+        compartment-ocid: ocid1.compartment.oc1..xxxxxxxxxxxxxxx

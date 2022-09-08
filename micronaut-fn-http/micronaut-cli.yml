@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: example.micronaut
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, graalvm, jackson-databind, java, java-application, junit, maven, oci-java-sdk-core, oracle-cloud-sdk, oracle-function, oracle-function-http, readme, shade, slf4j-simple, yaml]

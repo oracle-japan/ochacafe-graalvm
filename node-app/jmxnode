@@ -1,0 +1,10 @@
+#!/bin/bash
+
+$JAVA_HOME/bin/node --jvm --polyglot \
+    --vm.Dcom.sun.management.jmxremote.port=9010 \
+    --vm.Dcom.sun.management.jmxremote.ssl=false \
+    --vm.Dcom.sun.management.jmxremote.authenticate=false \
+    --vm.Dcom.sun.management.jmxremote.rmi.port=9011 \
+    --vm.Djava.rmi.server.hostname=localhost \
+    --vm.Dcom.sun.management.jmxremote.local.only=false \
+    $@

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+$JAVA_HOME/bin/node \
+    --experimental-options \
+    --insight=function-tracing.js \
+    --js.print \
+    $@

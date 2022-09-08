@@ -1,0 +1,9 @@
+schema_version: 20180708
+name: graaljpafunc
+version: 0.0.1
+config:
+  JDBC_DRIVER: oracle.jdbc.driver.OracleDriver
+  JDBC_PASSWORD_SECRET_ID: ocid1.vaultsecret.oc1.iad.xxxxxxxxxxxxxxxxxxxxx
+  JDBC_URL: jdbc:oracle:thin:@...
+  JDBC_USER: DEMO
+  OCI_REGION: us-ashburn-1

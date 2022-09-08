@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence version="2.2" 
+    xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                                 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+
+    <persistence-unit name="demo" transaction-type="RESOURCE_LOCAL">
+        <description>A persistence unit for the example.</description>
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>com.example.fn.Country</class>
+        <properties>
+            <!--
+            <property name="javax.persistence.jdbc.driver" value="" />
+            <property name="javax.persistence.jdbc.url" value="" />
+            <property name="javax.persistence.jdbc.user" value="" />
+            <property name="javax.persistence.jdbc.password" value="" />
+            -->
+            <property name="javax.persistence.schema-generation.database.action" value="none"/>
+            <property name="javax.persistence.schema-generation.create-script-source" value="META-INF/sql/create.sql" />
+            <!--
+            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <property name="javax.persistence.schema-generation.create-source" value="metadata"/>
+            <property name="javax.persistence.schema-generation.drop-source" value="metadata"/>
+            <property name="javax.persistence.sql-load-script-source" value="META-INF/sql/seed.sql"/>
+            -->
+            <property name="eclipselink.jdbc.connections.wait-timeout" value="10000"/>
+            <property name="eclipselink.deploy-on-startup" value="true" />
+            <property name="eclipselink.logging.logger" value="JavaLogger" />
+            <property name="eclipselink.logging.level" value="INFO"/> 
+            <property name="eclipselink.logging.parameters" value="true" />
+        </properties>
+    </persistence-unit>
+</persistence>

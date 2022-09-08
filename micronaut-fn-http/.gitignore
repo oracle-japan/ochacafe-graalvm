@@ -1,0 +1,7 @@
+.*
+!.gitignore
+!.mvn
+
+mvnw
+target
+

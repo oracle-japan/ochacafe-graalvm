@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "oci-sdk": "^2.35.1",
+    "oracledb": "^5.4.0",
+    "restify": "^8.6.1"
+  }
+}

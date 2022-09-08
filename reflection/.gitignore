@@ -1,0 +1,8 @@
+.*
+!.gitignore
+
+target
+test-results-native
+com.example.app
+*.txt
+

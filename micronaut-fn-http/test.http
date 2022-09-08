@@ -1,0 +1,36 @@
+@apigateway = xxxxxxxxxx.apigateway.us-ashburn-1.oci.customer-oci.com
+
+@compute_id = ocid1.instance.oc1.iad.xxxxxxxxxxxxxxxxxxxxxx
+
+###
+GET https://{{apigateway}}/compute/status/{{compute_id}}
+
+
+###
+GET https://{{apigateway}}/country/
+###
+GET https://{{apigateway}}/country/1
+###
+POST https://{{apigateway}}/country/
+Content-Type: application/json
+
+[
+    {"countryId": 91, "countryName": "India"},
+    {"countryId": 86, "countryName": "China"}
+]
+
+###
+DELETE https://{{apigateway}}/country/86
+Content-Type: application/json
+
+###
+DELETE https://{{apigateway}}/country/91
+Content-Type: application/json
+
+###
+PUT https://{{apigateway}}/country/
+Content-Type: application/json
+
+{"countryId": 999, "countryName": "UNKNOWN"}
+
+
