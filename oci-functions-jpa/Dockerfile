@@ -13,7 +13,7 @@ WORKDIR /function
 ADD pom.xml pom.xml
 ADD mvnw mvnw
 ADD .mvn .mvn
-RUN ["./mvnw", "-Pnative", "package", "-DskipTests=true"]
+RUN ["./mvnw", "package", "-DskipTests=true"]
 ADD src src
 RUN ["./mvnw", "-Pnative", "package", "-DskipTests=true"]
 # note: native image (func) is located under /function/target
