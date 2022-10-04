@@ -14,7 +14,7 @@ async function findCountry(req, res, next) {
   console.log('finding country: %s', req.params.id)
   res.setHeader('content-type', 'text/plain');
 
-  var conn = await oracledb.getConnection(dbPool.poolAlias);
+  const conn = await oracledb.getConnection(dbPool.poolAlias);
   conn.execute(`SELECT COUNTRY_NAME FROM COUNTRY WHERE COUNTRY_ID = :id`, 
       [req.params.id], 
       { outFormat: oracledb.OBJECT }
@@ -36,9 +36,9 @@ async function findCountry(req, res, next) {
 function hello(req, res, next) {
   res.setHeader('content-type', 'text/plain');
   try{
-    var javaString = Java.type("java.lang.String");
-    var world = new javaString("world"); // Javaオブジェクトのインスタンス化
-    var message = javaString.format("Hello %s!\n", req.params.name || world); // static メソッドの呼び出し
+    const javaString = Java.type("java.lang.String");
+    const world = new javaString("world"); // Javaオブジェクトのインスタンス化
+    const message = javaString.format("Hello %s!\n", req.params.name || world); // static メソッドの呼び出し
     res.send(message);
     next();
   }catch(err){
@@ -57,7 +57,7 @@ async function getSecret(secretId){
   const getSecretBundleRequest = {
     secretId: secretId
   };
-  var response = await client.getSecretBundle(getSecretBundleRequest)
+  const response = await client.getSecretBundle(getSecretBundleRequest)
   return Buffer.from(response.secretBundle.secretBundleContent.content, 'base64').toString();
 }
 
@@ -69,7 +69,7 @@ async function run() {
   console.log("connection pool is ready");
 
   // RESTify サーバーの起動
-  var server = restify.createServer();
+  const server = restify.createServer();
   server.get('/country/:id', findCountry);
   server.get('/hello/:name', hello);
   server.listen(8080, function () {
