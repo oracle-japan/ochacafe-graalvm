@@ -1,7 +1,6 @@
 .*
 !.gitignore
-!.mvnw
+!.mvn
 
-mvnw
 mvnw.cmd
 target
