@@ -23,6 +23,9 @@
             <property name="javax.persistence.schema-generation.drop-source" value="metadata"/>
             <property name="javax.persistence.sql-load-script-source" value="META-INF/sql/seed.sql"/>
             -->
+            <property name="eclipselink.connection-pool.default.initial" value="1"/>
+            <property name="eclipselink.connection-pool.default.min" value="1"/>
+            <property name="eclipselink.connection-pool.default.max" value="1"/>
             <property name="eclipselink.jdbc.connections.wait-timeout" value="10000"/>
             <property name="eclipselink.deploy-on-startup" value="true" />
             <property name="eclipselink.logging.logger" value="JavaLogger" />

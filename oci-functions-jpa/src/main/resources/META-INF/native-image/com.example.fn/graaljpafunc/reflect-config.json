@@ -45,6 +45,9 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"com.example.fn.Country_"
+},
+{
   "name":"com.example.fn.HelloFunction",
   "queryAllPublicMethods":true,
   "queryAllPublicConstructors":true,
@@ -68,6 +71,38 @@
     {"name":"<init>","parameterTypes":[] }, 
     {"name":"run","parameterTypes":["java.util.Map","com.fnproject.fn.runtime.EventCodec","java.io.PrintStream","java.lang.String[]"] }
   ]
+},
+{
+  "name":"com.oracle.bmc.database.model.GenerateAutonomousDatabaseWalletDetails",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getGenerateType","parameterTypes":[] }, 
+    {"name":"getPassword","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.oracle.bmc.database.model.GenerateAutonomousDatabaseWalletDetails$GenerateType",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getValue","parameterTypes":[] }]
+},
+{
+  "name":"com.oracle.bmc.http.client.internal.ExplicitlySetBmcModel",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.oracle.bmc.http.client.jersey.internal.DaemonClientAsyncExecutorProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["int"] }]
+},
+{
+  "name":"com.oracle.bmc.http.internal.BmcEnum",
+  "queryAllDeclaredMethods":true
 },
 {
   "name":"com.oracle.bmc.http.internal.ResponseHelper$ErrorCodeAndMessage$Builder",
@@ -160,7 +195,15 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"com.sun.crypto.provider.HmacSHA1",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
   "name":"com.sun.crypto.provider.PBKDF2Core$HmacSHA512",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.RSACipher",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -174,6 +217,13 @@
 {
   "name":"com.sun.crypto.provider.TlsPrfGenerator$V12",
   "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsRsaPremasterSecretGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.jndi.url.java.javaURLContextFactory"
 },
 {
   "name":"com.sun.management.GarbageCollectorMXBean",
@@ -216,14 +266,14 @@
   "queryAllPublicConstructors":true
 },
 {
-  "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
+  "name":"jakarta.persistence.spi.PersistenceUnitInfo",
+  "methods":[
+    {"name":"getSharedCacheMode","parameterTypes":[] }, 
+    {"name":"getValidationMode","parameterTypes":[] }
+  ]
 },
 {
   "name":"java.awt.image.RenderedImage"
-},
-{
-  "name":"java.io.Serializable"
 },
 {
   "name":"java.lang.Boolean",
@@ -319,7 +369,13 @@
 },
 {
   "name":"java.lang.management.PlatformLoggingMXBean",
-  "queryAllPublicMethods":true
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"getLoggerLevel","parameterTypes":["java.lang.String"] }, 
+    {"name":"getLoggerNames","parameterTypes":[] }, 
+    {"name":"getParentLoggerName","parameterTypes":["java.lang.String"] }, 
+    {"name":"setLoggerLevel","parameterTypes":["java.lang.String","java.lang.String"] }
+  ]
 },
 {
   "name":"java.lang.management.RuntimeMXBean",
@@ -346,9 +402,6 @@
 },
 {
   "name":"java.security.SecureRandomParameters"
-},
-{
-  "name":"java.security.cert.CertStoreParameters"
 },
 {
   "name":"java.security.interfaces.DSAPrivateKey"
@@ -405,8 +458,12 @@
   "queryAllDeclaredMethods":true
 },
 {
+  "name":"javax.json.JsonValue"
+},
+{
   "name":"javax.management.MBeanOperationInfo",
-  "queryAllPublicMethods":true
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getSignature","parameterTypes":[] }]
 },
 {
   "name":"javax.management.MBeanServerBuilder",
@@ -432,11 +489,10 @@
   ]
 },
 {
-  "name":"javax.persistence.spi.PersistenceUnitInfo",
-  "methods":[
-    {"name":"getSharedCacheMode","parameterTypes":[] }, 
-    {"name":"getValidationMode","parameterTypes":[] }
-  ]
+  "name":"javax.net.ssl.KeyManagerFactory"
+},
+{
+  "name":"javax.net.ssl.TrustManagerFactory"
 },
 {
   "name":"javax.security.auth.kerberos.KerberosCredMessage"
@@ -483,140 +539,13 @@
   "queryAllPublicMethods":true
 },
 {
-  "name":"oracle.jdbc.OracleConnection",
-  "fields":[
-    {"name":"CONNECTION_PROPERTY_ACCUMULATE_BATCH_RESULT"}, 
-    {"name":"CONNECTION_PROPERTY_ALLOWED_LOGON_VERSION"}, 
-    {"name":"CONNECTION_PROPERTY_AUTOCOMMIT"}, 
-    {"name":"CONNECTION_PROPERTY_AUTO_COMMIT_SPEC_COMPLIANT"}, 
-    {"name":"CONNECTION_PROPERTY_COMMIT_OPTION"}, 
-    {"name":"CONNECTION_PROPERTY_CONFIG_FILE"}, 
-    {"name":"CONNECTION_PROPERTY_CONTINUE_BATCH_ON_ERROR"}, 
-    {"name":"CONNECTION_PROPERTY_CONVERT_NCHAR_LITERALS"}, 
-    {"name":"CONNECTION_PROPERTY_CREATE_DESCRIPTOR_USE_CURRENT_SCHEMA_FOR_SCHEMA_NAME"}, 
-    {"name":"CONNECTION_PROPERTY_DATABASE"}, 
-    {"name":"CONNECTION_PROPERTY_DEFAULTNCHAR"}, 
-    {"name":"CONNECTION_PROPERTY_DEFAULT_CONNECTION_VALIDATION"}, 
-    {"name":"CONNECTION_PROPERTY_DEFAULT_EXECUTE_BATCH"}, 
-    {"name":"CONNECTION_PROPERTY_DEFAULT_LOB_PREFETCH_SIZE"}, 
-    {"name":"CONNECTION_PROPERTY_DEFAULT_ROW_PREFETCH"}, 
-    {"name":"CONNECTION_PROPERTY_DISABLE_DEFINECOLUMNTYPE"}, 
-    {"name":"CONNECTION_PROPERTY_DMS_PARENT_NAME"}, 
-    {"name":"CONNECTION_PROPERTY_DMS_PARENT_TYPE"}, 
-    {"name":"CONNECTION_PROPERTY_DMS_STMT_CACHING_METRICS"}, 
-    {"name":"CONNECTION_PROPERTY_DMS_STMT_METRICS"}, 
-    {"name":"CONNECTION_PROPERTY_DOWN_HOSTS_TIMEOUT"}, 
-    {"name":"CONNECTION_PROPERTY_DRCP_TAG_NAME"}, 
-    {"name":"CONNECTION_PROPERTY_DRIVER_NAME_ATTRIBUTE"}, 
-    {"name":"CONNECTION_PROPERTY_EDITION_NAME"}, 
-    {"name":"CONNECTION_PROPERTY_ENABLE_DATA_IN_LOCATOR"}, 
-    {"name":"CONNECTION_PROPERTY_ENABLE_IMPLICIT_REQUESTS"}, 
-    {"name":"CONNECTION_PROPERTY_ENABLE_QUERY_RESULT_CACHE"}, 
-    {"name":"CONNECTION_PROPERTY_ENABLE_READ_DATA_IN_LOCATOR"}, 
-    {"name":"CONNECTION_PROPERTY_FAN_ENABLED"}, 
-    {"name":"CONNECTION_PROPERTY_FIXED_STRING"}, 
-    {"name":"CONNECTION_PROPERTY_IMPLICIT_STATEMENT_CACHE_SIZE"}, 
-    {"name":"CONNECTION_PROPERTY_INCLUDE_SYNONYMS"}, 
-    {"name":"CONNECTION_PROPERTY_INTERNAL_LOGON"}, 
-    {"name":"CONNECTION_PROPERTY_J2EE13_COMPLIANT"}, 
-    {"name":"CONNECTION_PROPERTY_JDBC_STANDARD_BEHAVIOR"}, 
-    {"name":"CONNECTION_PROPERTY_LOB_STREAM_POS_STANDARD_COMPLIANT"}, 
-    {"name":"CONNECTION_PROPERTY_LOGIN_TIMEOUT"}, 
-    {"name":"CONNECTION_PROPERTY_MAP_DATE_TO_TIMESTAMP"}, 
-    {"name":"CONNECTION_PROPERTY_MAX_CACHED_BUFFER_SIZE"}, 
-    {"name":"CONNECTION_PROPERTY_NETWORK_COMPRESSION"}, 
-    {"name":"CONNECTION_PROPERTY_NETWORK_COMPRESSION_LEVELS"}, 
-    {"name":"CONNECTION_PROPERTY_NETWORK_COMPRESSION_THRESHOLD"}, 
-    {"name":"CONNECTION_PROPERTY_OCI_COMPARTMENT"}, 
-    {"name":"CONNECTION_PROPERTY_OCI_DATABASE"}, 
-    {"name":"CONNECTION_PROPERTY_OCI_DRIVER_CHARSET"}, 
-    {"name":"CONNECTION_PROPERTY_OCI_ENV_HANDLE"}, 
-    {"name":"CONNECTION_PROPERTY_OCI_ERR_HANDLE"}, 
-    {"name":"CONNECTION_PROPERTY_OCI_IAM_URL"}, 
-    {"name":"CONNECTION_PROPERTY_OCI_SVC_CTX_HANDLE"}, 
-    {"name":"CONNECTION_PROPERTY_OCI_TENANCY"}, 
-    {"name":"CONNECTION_PROPERTY_ONS_PROTOCOL"}, 
-    {"name":"CONNECTION_PROPERTY_ONS_WALLET_FILE"}, 
-    {"name":"CONNECTION_PROPERTY_ONS_WALLET_PASSWORD"}, 
-    {"name":"CONNECTION_PROPERTY_PASSWORD_AUTHENTICATION"}, 
-    {"name":"CONNECTION_PROPERTY_PRELIM_AUTH"}, 
-    {"name":"CONNECTION_PROPERTY_PROCESS_ESCAPES"}, 
-    {"name":"CONNECTION_PROPERTY_PROTOCOL"}, 
-    {"name":"CONNECTION_PROPERTY_PROXY_CLIENT_NAME"}, 
-    {"name":"CONNECTION_PROPERTY_REPORT_REMARKS"}, 
-    {"name":"CONNECTION_PROPERTY_REQUEST_SIZE_LIMIT"}, 
-    {"name":"CONNECTION_PROPERTY_RESOURCE_MANAGER_ID"}, 
-    {"name":"CONNECTION_PROPERTY_RESTRICT_GETTABLES"}, 
-    {"name":"CONNECTION_PROPERTY_RETAIN_V9_BIND_BEHAVIOR"}, 
-    {"name":"CONNECTION_PROPERTY_SET_FLOAT_AND_DOUBLE_USE_BINARY"}, 
-    {"name":"CONNECTION_PROPERTY_SET_NEW_PASSWORD"}, 
-    {"name":"CONNECTION_PROPERTY_SOCKS_PROXY_HOST"}, 
-    {"name":"CONNECTION_PROPERTY_SOCKS_PROXY_PORT"}, 
-    {"name":"CONNECTION_PROPERTY_SQL_ERROR_TRANSLATION_FILE"}, 
-    {"name":"CONNECTION_PROPERTY_SQL_TRANSLATION_PROFILE"}, 
-    {"name":"CONNECTION_PROPERTY_SSL_CONTEXT_PROTOCOL"}, 
-    {"name":"CONNECTION_PROPERTY_STREAM_CHUNK_SIZE"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_FORCE_DNS_LOAD_BALANCING"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_HTTPS_PROXY_HOST"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_HTTPS_PROXY_PORT"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_JAVAX_NET_SSL_KEYSTORE"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_JAVAX_NET_SSL_KEYSTOREPASSWORD"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_JAVAX_NET_SSL_KEYSTORETYPE"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_JAVAX_NET_SSL_TRUSTSTORE"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_JAVAX_NET_SSL_TRUSTSTOREPASSWORD"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_JAVAX_NET_SSL_TRUSTSTORETYPE"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_JNDI_LDAP_CONNECT_TIMEOUT"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_JNDI_LDAP_READ_TIMEOUT"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_LDAP_SECURITY_AUTHENTICATION"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_LDAP_SECURITY_PRINCIPAL"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_LDAP_SSL_CIPHER_SUITES"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_LDAP_SSL_VERSIONS"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_LDAP_SSL_WALLET_LOCATION"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_LDAP_SSL_WALLET_PASSWORD"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_ALLOW_WEAK_CRYPTO"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_AUTHENTICATION_KRB5_CC_NAME"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_AUTHENTICATION_KRB5_MUTUAL"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_AUTHENTICATION_KRB_REALM"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_AUTHENTICATION_SERVICES"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_CHECKSUM_LEVEL"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_CHECKSUM_TYPES"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_CONNECT_TIMEOUT"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_CRYPTO_SEED"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_DISABLE_OUT_OF_BAND_BREAK"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_ENCRYPTION_LEVEL"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_ENCRYPTION_TYPES"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_OLDSYNTAX"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_NET_PROFILE"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_OUTBOUND_CONNECT_TIMEOUT"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_READ_TIMEOUT"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_SSL_CERTIFICATE_ALIAS"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_SSL_CIPHER_SUITES"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_SSL_KEYMANAGERFACTORY_ALGORITHM"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_SSL_SERVER_CERT_DN"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_SSL_SERVER_DN_MATCH"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_SSL_TRUSTMANAGERFACTORY_ALGORITHM"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_SSL_VERSION"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_TCP_NO_DELAY"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_VSESSION_ENAME"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_VSESSION_INAME"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_VSESSION_MACHINE"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_VSESSION_OSUSER"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_VSESSION_PROCESS"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_VSESSION_PROGRAM"}, 
-    {"name":"CONNECTION_PROPERTY_THIN_VSESSION_TERMINAL"}, 
-    {"name":"CONNECTION_PROPERTY_TIMESTAMPTZ_IN_GMT"}, 
-    {"name":"CONNECTION_PROPERTY_TIMEZONE_AS_REGION"}, 
-    {"name":"CONNECTION_PROPERTY_TNS_ADMIN"}, 
-    {"name":"CONNECTION_PROPERTY_TOKEN_AUTHENTICATION"}, 
-    {"name":"CONNECTION_PROPERTY_TOKEN_LOCATION"}, 
-    {"name":"CONNECTION_PROPERTY_USER_NAME"}, 
-    {"name":"CONNECTION_PROPERTY_USE_FETCH_SIZE_WITH_LONG_COLUMN"}, 
-    {"name":"CONNECTION_PROPERTY_USE_SHARDING_DRIVER_CONNECTION"}, 
-    {"name":"CONNECTION_PROPERTY_WALLET_LOCATION"}, 
-    {"name":"CONNECTION_PROPERTY_WALLET_PASSWORD"}, 
-    {"name":"CONNECTION_PROPERTY_WEBSOCKET_PASSWORD"}, 
-    {"name":"CONNECTION_PROPERTY_WEBSOCKET_USER"}
-  ]
+  "name":"oracle.as.jmx.framework.PortableMBeanFactory"
+},
+{
+  "name":"oracle.i18n.text.OraBoot"
+},
+{
+  "name":"oracle.i18n.text.converter.CharacterConverterSJIS"
 },
 {
   "name":"oracle.jdbc.OracleDriver"
@@ -624,10 +553,6 @@
 {
   "name":"oracle.jdbc.driver.DiagnosabilityMXBean",
   "queryAllPublicMethods":true
-},
-{
-  "name":"oracle.jdbc.driver.GeneratedPhysicalConnection",
-  "allDeclaredFields":true
 },
 {
   "name":"oracle.jdbc.driver.LiveDMSFactory",
@@ -646,6 +571,9 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"oracle.jdbc.driver.OracleDriverA"
+},
+{
   "name":"oracle.jdbc.driver.T4CDriverExtension",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
@@ -655,7 +583,7 @@
 },
 {
   "name":"oracle.jdbc.logging.annotations.Supports",
-  "queriedMethods":[{"name":"value","parameterTypes":[] }]
+  "methods":[{"name":"value","parameterTypes":[] }]
 },
 {
   "name":"oracle.jdbc.logging.runtime.TraceController",
@@ -676,6 +604,72 @@
 {
   "name":"oracle.net.ano.SupervisorService",
   "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.ons.ONS"
+},
+{
+  "name":"oracle.security.crypto.cert.ext.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.cert.ext.AuthorityKeyIDExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.cert.ext.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.cert.ext.CRLDistPointExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.cert.ext.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.cert.ext.ExtKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.cert.ext.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.cert.ext.SubjectKeyIDExtension",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.core.DES_EDE",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.core.PKCS12PBE",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.core.RSAPrivateKey",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.core.RSAPublicKey",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.crypto.core.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.pki.OraclePKIProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.security.pki.OracleSSOKeyStoreSpi",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"oracle.simplefan.FanManager"
 },
 {
   "name":"oracle.sql.AnyDataFactory"
@@ -717,7 +711,7 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"org.eclipse.persistence.platform.database.oracle.Oracle9Platform",
+  "name":"org.eclipse.persistence.platform.database.DatabasePlatform",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -776,7 +770,7 @@
 },
 {
   "name":"org.glassfish.jersey.inject.hk2.InstanceSupplierFactoryBridge",
-  "queriedMethods":[{"name":"provide","parameterTypes":[] }]
+  "methods":[{"name":"provide","parameterTypes":[] }]
 },
 {
   "name":"org.glassfish.jersey.inject.hk2.JerseyErrorService",
@@ -964,6 +958,7 @@
 },
 {
   "name":"org.glassfish.jersey.spi.AbstractThreadPoolProvider",
+  "allDeclaredFields":true,
   "queryAllDeclaredMethods":true
 },
 {
@@ -973,6 +968,7 @@
 },
 {
   "name":"org.glassfish.jersey.spi.ThreadPoolExecutorProvider",
+  "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "methods":[{"name":"preDestroy","parameterTypes":[] }]
 },
@@ -989,6 +985,9 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":["org.glassfish.hk2.api.ServiceLocator"] }]
+},
+{
+  "name":"org.osgi.framework.BundleReference"
 },
 {
   "name":"sun.management.ClassLoadingImpl",
@@ -1021,6 +1020,9 @@
 {
   "name":"sun.management.RuntimeImpl",
   "queryAllPublicConstructors":true
+},
+{
+  "name":"sun.security.krb5.internal.APReq"
 },
 {
   "name":"sun.security.pkcs12.PKCS12KeyStore",
@@ -1087,15 +1089,7 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"sun.security.provider.certpath.CollectionCertStore",
-  "methods":[{"name":"<init>","parameterTypes":["java.security.cert.CertStoreParameters"] }]
-},
-{
   "name":"sun.security.provider.certpath.PKIXCertPathValidator",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"sun.security.provider.certpath.SunCertPathBuilder",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -1119,7 +1113,7 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"sun.security.rsa.RSASignature$SHA512withRSA",
+  "name":"sun.security.ssl.KeyManagerFactoryImpl$SunX509",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -1183,5 +1177,8 @@
 {
   "name":"sun.security.x509.SubjectKeyIdentifierExtension",
   "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"weblogic.version"
 }
 ]

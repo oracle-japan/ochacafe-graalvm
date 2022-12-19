@@ -1,8 +1,8 @@
 
-#ARG BUILD_BASE=ghcr.io/graalvm/native-image:ol8-java11-22.1.0
-ARG BUILD_BASE=container-registry.oracle.com/graalvm/native-image-ee:ol8-java11-22.2.0
+ARG BUILD_BASE=ghcr.io/graalvm/native-image:ol8-java17-22.1.0
+#ARG BUILD_BASE=container-registry.oracle.com/graalvm/native-image-ee:ol8-java17-22.1.0
 
-ARG FDK_RUNTIME=fnproject/fn-java-fdk:jre11-latest
+ARG FDK_RUNTIME=fnproject/fn-java-fdk:jre17-1.0.162
 ARG RUNTIME_BASE=container-registry.oracle.com/os/oraclelinux:8-slim
 
 ### STEP 1 - generate native image

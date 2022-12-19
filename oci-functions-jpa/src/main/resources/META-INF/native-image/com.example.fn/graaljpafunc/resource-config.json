@@ -5,10 +5,16 @@
       "pattern":"\\QMETA-INF/persistence.xml\\E"
     }, 
     {
+      "pattern":"\\QMETA-INF/services/com.oracle.bmc.http.client.HttpProvider\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/jakarta.persistence.spi.PersistenceProvider\\E"
+    }, 
+    {
       "pattern":"\\QMETA-INF/services/java.sql.Driver\\E"
     }, 
     {
-      "pattern":"\\QMETA-INF/services/javax.persistence.spi.PersistenceProvider\\E"
+      "pattern":"\\QMETA-INF/services/javax.xml.parsers.SAXParserFactory\\E"
     }, 
     {
       "pattern":"\\QMETA-INF/services/org.glassfish.hk2.extension.ServiceLocatorGenerator\\E"
@@ -20,13 +26,13 @@
       "pattern":"\\QMETA-INF/services/org.glassfish.jersey.internal.spi.AutoDiscoverable\\E"
     }, 
     {
-      "pattern":"\\QMETA-INF/sql/create.sql\\E"
-    }, 
-    {
       "pattern":"\\Qcom/example/fn/Country.class\\E"
     }, 
     {
       "pattern":"\\Qcom/example/fn/Oci.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/example/fn/OciDatabase.class\\E"
     }, 
     {
       "pattern":"\\Qcom/example/fn/OciSecrets.class\\E"
@@ -104,6 +110,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/annotation/JsonInclude$Value.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/annotation/JsonInclude.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/annotation/JsonIncludeProperties$Value.class\\E"
     }, 
     {
@@ -141,6 +150,9 @@
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/annotation/JsonSubTypes$Type.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/annotation/JsonTypeId.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/annotation/JsonTypeInfo$As.class\\E"
@@ -206,6 +218,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/core/JsonFactoryBuilder.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/core/JsonGenerationException.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/core/JsonGenerator$Feature.class\\E"
     }, 
     {
@@ -248,6 +263,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/core/StreamReadCapability.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/core/StreamWriteCapability.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/core/TSFBuilder.class\\E"
     }, 
     {
@@ -282,6 +300,9 @@
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/core/exc/StreamReadException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/core/exc/StreamWriteException.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/core/filter/FilteringParserDelegate.class\\E"
@@ -336,6 +357,9 @@
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/core/json/JsonReadContext.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/core/json/JsonWriteContext.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/core/json/ReaderBasedJsonParser.class\\E"
@@ -440,6 +464,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/databind/BeanDescription.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/BeanProperty$Std.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/databind/BeanProperty.class\\E"
     }, 
     {
@@ -500,10 +527,16 @@
       "pattern":"\\Qcom/fasterxml/jackson/databind/ObjectReader.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ObjectWriter.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/databind/PropertyMetadata.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/PropertyName.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/RuntimeJsonMappingException.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/SerializationConfig.class\\E"
@@ -516,6 +549,9 @@
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/annotation/JacksonStdImpl.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/annotation/JsonAppend.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/annotation/JsonDeserialize.class\\E"
@@ -815,6 +851,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/databind/deser/std/FromStringDeserializer$Std.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/deser/std/FromStringDeserializer$StringBufferDeserializer.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/databind/deser/std/FromStringDeserializer$StringBuilderDeserializer.class\\E"
     }, 
     {
@@ -1112,6 +1151,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$2.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$3.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$4.class\\E"
     }, 
     {
@@ -1316,6 +1358,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/BeanSerializer.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/BeanSerializerBuilder.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/BeanSerializerFactory.class\\E"
     }, 
     {
@@ -1335,6 +1380,12 @@
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/FilterProvider.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/PropertyBuilder$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/PropertyBuilder.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/PropertyFilter.class\\E"
@@ -1361,6 +1412,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/AttributePropertyWriter.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/FailingSerializer.class\\E"
     }, 
     {
@@ -1377,6 +1431,21 @@
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/PropertyBasedObjectIdGenerator.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/PropertySerializerMap$Empty.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/PropertySerializerMap$Single.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap$Bucket.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/ReadOnlyClassToSerializerMap.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter$FilterExceptFilter.class\\E"
@@ -1404,6 +1473,12 @@
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/UnsupportedTypeSerializer.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/UnwrappingBeanPropertyWriter.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/impl/UnwrappingBeanSerializer.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/std/ArraySerializerBase.class\\E"
@@ -1455,6 +1530,9 @@
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/std/IterableSerializer.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/ser/std/JsonValueSerializer$TypeSerializerRerouter.class\\E"
     }, 
     {
       "pattern":"\\Qcom/fasterxml/jackson/databind/ser/std/JsonValueSerializer.class\\E"
@@ -1649,6 +1727,9 @@
       "pattern":"\\Qcom/fasterxml/jackson/databind/util/TokenBuffer.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/fasterxml/jackson/databind/util/TypeKey.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/fnproject/fn/api/FnConfiguration.class\\E"
     }, 
     {
@@ -1754,111 +1835,6 @@
       "pattern":"\\Qcom/fnproject/fn/runtime/exception/InvalidFunctionDefinitionException.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/google/common/base/Function.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/base/Optional.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/base/Preconditions.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/base/Present.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/base/Supplier.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/AbstractMapEntry.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/BiMap.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/CollectPreconditions.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/Hashing.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableBiMap.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableBiMapFauxverideShim.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableCollection.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableEntry.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableList.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableMap$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableMap$IteratorBasedImmutableMap.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableMap$MapViewOfValuesAsSingletonSets.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableMap.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableMapEntry$NonTerminalImmutableMapEntry.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableMapEntry.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableMapEntrySet$RegularEntrySet.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableMapEntrySet.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableSet$CachingAsList.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/ImmutableSet.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/IndexedImmutableSet.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/Iterables.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/RegularImmutableMap$KeySet.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/RegularImmutableMap$Values.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/RegularImmutableMap.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/collect/UnmodifiableIterator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/escape/Escaper$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/escape/Escaper.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/escape/UnicodeEscaper.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/net/PercentEscaper.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/google/common/net/UrlEscapers.class\\E"
-    }, 
-    {
       "pattern":"\\Qcom/oracle/bmc/ClientConfiguration$ClientConfigurationBuilder.class\\E"
     }, 
     {
@@ -1958,133 +1934,1048 @@
       "pattern":"\\Qcom/oracle/bmc/circuitbreaker/CircuitBreakerConfiguration.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/circuitbreaker/JaxRsCircuitBreaker.class\\E"
-    }, 
-    {
       "pattern":"\\Qcom/oracle/bmc/circuitbreaker/NoCircuitBreakerConfiguration.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/circuitbreaker/internal/HttpStatusErrorException.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/circuitbreaker/OciCircuitBreaker$Config.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/circuitbreaker/internal/JaxRsCircuitBreakerImpl.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/circuitbreaker/OciCircuitBreaker$ErrorHistoryItem.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ApacheConfigurator$NonBuffering.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/circuitbreaker/OciCircuitBreaker.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ApacheConfigurator.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/circuitbreaker/internal/resilience4j/OciCircuitBreakerImpl.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ApacheConnectionPoolConfig$Builder.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/common/ClientBuilderBase.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ApacheConnectionPoolConfig.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/common/InternalBuilderAccess.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ApacheConnectorProperties$ApacheConnectorPropertiesBuilder.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/common/RegionalClientBuilder.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ApacheConnectorProperties.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/database/Database.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ApacheConnectorPropertiesClientConfigDecorator.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/database/DatabaseAsync.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ApacheUtils.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/database/DatabaseAsyncClient.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/ClientConfigDecorator.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/database/DatabaseClient$Builder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/DatabaseClient.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/DatabasePaginators.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/DatabaseWaiters.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/model/GenerateAutonomousDatabaseWalletDetails$Builder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/model/GenerateAutonomousDatabaseWalletDetails$GenerateType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/model/GenerateAutonomousDatabaseWalletDetails.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ActivateExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/AddStorageCapacityCloudExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/AddStorageCapacityExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/AddVirtualMachineToCloudVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/AddVirtualMachineToVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/AutonomousDatabaseManualRefreshRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeAutonomousContainerDatabaseCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeAutonomousDatabaseCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeAutonomousExadataInfrastructureCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeAutonomousVmClusterCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeBackupDestinationCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeCloudAutonomousVmClusterCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeCloudExadataInfrastructureCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeCloudVmClusterCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeDatabaseSoftwareImageCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeDbSystemCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeExadataInfrastructureCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeExternalContainerDatabaseCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeExternalNonContainerDatabaseCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeExternalPluggableDatabaseCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeKeyStoreCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ChangeVmClusterCompartmentRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CheckExternalDatabaseConnectorConnectionStatusRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CompleteExternalBackupJobRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ConfigureAutonomousDatabaseVaultKeyRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ConvertToPdbRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateAutonomousContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateAutonomousDatabaseBackupRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateAutonomousVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateBackupDestinationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateBackupRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateCloudAutonomousVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateCloudExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateCloudVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateConsoleConnectionRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateDataGuardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateDatabaseSoftwareImageRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateDbHomeRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateExternalBackupJobRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateExternalContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateExternalDatabaseConnectorRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateExternalNonContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateExternalPluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateKeyStoreRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreatePluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateVmClusterNetworkRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/CreateVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DbNodeActionRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteAutonomousVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteBackupDestinationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteBackupRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteCloudAutonomousVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteCloudExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteCloudVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteConsoleConnectionRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteDatabaseSoftwareImageRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteDbHomeRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteExternalContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteExternalDatabaseConnectorRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteExternalNonContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteExternalPluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteKeyStoreRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeletePluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteVmClusterNetworkRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeleteVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DeregisterAutonomousDatabaseDataSafeRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableAutonomousDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableAutonomousDatabaseOperationsInsightsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableExternalContainerDatabaseDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableExternalContainerDatabaseStackMonitoringRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableExternalNonContainerDatabaseDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableExternalNonContainerDatabaseOperationsInsightsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableExternalNonContainerDatabaseStackMonitoringRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableExternalPluggableDatabaseDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableExternalPluggableDatabaseOperationsInsightsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisableExternalPluggableDatabaseStackMonitoringRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DisablePluggableDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DownloadExadataInfrastructureConfigFileRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DownloadValidationReportRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/DownloadVmClusterNetworkConfigFileRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableAutonomousDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableAutonomousDatabaseOperationsInsightsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableExternalContainerDatabaseDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableExternalContainerDatabaseStackMonitoringRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableExternalNonContainerDatabaseDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableExternalNonContainerDatabaseOperationsInsightsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableExternalNonContainerDatabaseStackMonitoringRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableExternalPluggableDatabaseDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableExternalPluggableDatabaseOperationsInsightsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnableExternalPluggableDatabaseStackMonitoringRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/EnablePluggableDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/FailOverAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/FailoverAutonomousContainerDatabaseDataguardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/FailoverDataGuardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GenerateAutonomousDatabaseWalletRequest$Builder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GenerateAutonomousDatabaseWalletRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GenerateRecommendedVmClusterNetworkRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousContainerDatabaseDataguardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousDatabaseBackupRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousDatabaseDataguardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousDatabaseRegionalWalletRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousDatabaseWalletRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousPatchRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetAutonomousVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetBackupDestinationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetBackupRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetCloudAutonomousVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetCloudExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetCloudExadataInfrastructureUnallocatedResourcesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetCloudVmClusterIormConfigRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetCloudVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetCloudVmClusterUpdateHistoryEntryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetCloudVmClusterUpdateRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetConsoleConnectionRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDataGuardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDatabaseSoftwareImageRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDatabaseUpgradeHistoryEntryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbHomePatchHistoryEntryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbHomePatchRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbHomeRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbNodeRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbServerRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbSystemPatchHistoryEntryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbSystemPatchRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbSystemRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetDbSystemUpgradeHistoryEntryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetExadataInfrastructureOcpusRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetExadataIormConfigRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetExternalBackupJobRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetExternalContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetExternalDatabaseConnectorRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetExternalNonContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetExternalPluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetInfrastructureTargetVersionsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetKeyStoreRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetMaintenanceRunHistoryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetMaintenanceRunRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetPdbConversionHistoryEntryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetPluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetVmClusterNetworkRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetVmClusterPatchHistoryEntryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetVmClusterPatchRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetVmClusterUpdateHistoryEntryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/GetVmClusterUpdateRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/LaunchAutonomousExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/LaunchDbSystemRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousContainerDatabaseDataguardAssociationsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousContainerDatabasesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousDatabaseBackupsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousDatabaseCharacterSetsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousDatabaseClonesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousDatabaseDataguardAssociationsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousDatabaseRefreshableClonesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousDatabasesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousDbPreviewVersionsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousDbVersionsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousExadataInfrastructureShapesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousExadataInfrastructuresRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListAutonomousVmClustersRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListBackupDestinationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListBackupsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListCloudAutonomousVmClustersRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListCloudExadataInfrastructuresRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListCloudVmClusterUpdateHistoryEntriesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListCloudVmClusterUpdatesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListCloudVmClustersRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListConsoleConnectionsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListContainerDatabasePatchesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDataGuardAssociationsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDatabaseSoftwareImagesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDatabaseUpgradeHistoryEntriesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDatabasesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbHomePatchHistoryEntriesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbHomePatchesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbHomesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbNodesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbServersRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbSystemComputePerformancesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbSystemPatchHistoryEntriesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbSystemPatchesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbSystemShapesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbSystemStoragePerformancesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbSystemUpgradeHistoryEntriesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbSystemsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListDbVersionsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListExadataInfrastructuresRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListExternalContainerDatabasesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListExternalDatabaseConnectorsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListExternalNonContainerDatabasesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListExternalPluggableDatabasesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListFlexComponentsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListGiVersionsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListKeyStoresRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListMaintenanceRunHistoryRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListMaintenanceRunsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListPdbConversionHistoryEntriesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListPluggableDatabasesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListVmClusterNetworksRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListVmClusterPatchHistoryEntriesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListVmClusterPatchesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListVmClusterUpdateHistoryEntriesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListVmClusterUpdatesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ListVmClustersRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/LocalClonePluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/MigrateExadataDbSystemResourceModelRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/MigrateVaultKeyRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ModifyDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ModifyPluggableDatabaseManagementRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RegisterAutonomousDatabaseDataSafeRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ReinstateAutonomousContainerDatabaseDataguardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ReinstateDataGuardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RemoteClonePluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RemoveVirtualMachineFromCloudVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RemoveVirtualMachineFromVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ResizeVmClusterNetworkRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RestartAutonomousContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RestartAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RestoreAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RestoreDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RotateAutonomousContainerDatabaseEncryptionKeyRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RotateAutonomousDatabaseEncryptionKeyRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RotateCloudAutonomousVmClusterOrdsCertsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RotateCloudAutonomousVmClusterSslCertsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RotateOrdsCertsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RotateSslCertsRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/RotateVaultKeyRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ScanExternalContainerDatabasePluggableDatabasesRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ShrinkAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/StartAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/StartPluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/StopAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/StopPluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/SwitchoverAutonomousContainerDatabaseDataguardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/SwitchoverAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/SwitchoverDataGuardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/TerminateAutonomousContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/TerminateAutonomousExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/TerminateDbSystemRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateAutonomousContainerDatabaseDataguardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateAutonomousContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateAutonomousDatabaseRegionalWalletRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateAutonomousDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateAutonomousDatabaseWalletRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateAutonomousExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateAutonomousVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateBackupDestinationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateCloudAutonomousVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateCloudExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateCloudVmClusterIormConfigRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateCloudVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateDataGuardAssociationRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateDatabaseSoftwareImageRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateDbHomeRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateDbSystemRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateExadataInfrastructureRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateExadataIormConfigRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateExternalContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateExternalDatabaseConnectorRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateExternalNonContainerDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateExternalPluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateKeyStoreRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateMaintenanceRunRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdatePluggableDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateVmClusterNetworkRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpdateVmClusterRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpgradeDatabaseRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/UpgradeDbSystemRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/requests/ValidateVmClusterNetworkRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/responses/GenerateAutonomousDatabaseWalletResponse$Builder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/database/responses/GenerateAutonomousDatabaseWalletResponse.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/http/ClientConfigurator.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/CompositeClientConfigurator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/DefaultConfigurator$NonBuffering.class\\E"
-    }, 
-    {
       "pattern":"\\Qcom/oracle/bmc/http/DefaultConfigurator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/HasApacheConnectorProperties.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/http/HasEffectiveClientConfigurator.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/SetsClientBuilderProperties.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/http/client/ClientProperty.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/DefaultHolder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/HttpClient.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/HttpProvider.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/HttpRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/HttpResponse.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/Method.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/Options.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/RequestInterceptor.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/Serialization.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/StandardClientProperties.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/internal/ExplicitlySetBmcModel.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/internal/ExplicitlySetFilter.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/internal/RFC3339DateFormat.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/ApacheClientProperties.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/JerseyClientProperties.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/JerseyClientProperty.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/JerseyHttpClient.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/JerseyHttpClientBuilder$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/JerseyHttpClientBuilder$PrioritizedValue.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/JerseyHttpClientBuilder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/JerseyHttpRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/JerseyHttpResponse.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/WrappedResponseInputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/internal/DaemonClientAsyncExecutorProvider$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/internal/DaemonClientAsyncExecutorProvider.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/io/internal/AutoCloseableContentLengthVerifyingInputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/client/jersey/io/internal/ContentLengthVerifyingInputStream.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/http/internal/AuthnClientFilter.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/oracle/bmc/http/internal/BaseAsyncClient.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/internal/BaseClient.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/internal/BaseSyncClient.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/internal/BmcEnum.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/internal/CircuitBreakerHelper.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/http/internal/ClientCall.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/oracle/bmc/http/internal/ClientIdFilter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/ContentLengthFilter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/EntityFactory.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/ExplicitlySetFilter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/ForwardingInvocationBuilder.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/HeaderUtils.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/http/internal/LogHeadersFilter.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/RFC3339DateFormat.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/ResponseConversionFunctionFactory$ParseResponseWithHeadersFunction.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/ResponseConversionFunctionFactory$ValidatingParseResponseFunction.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/ResponseConversionFunctionFactory.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/http/internal/ParamEncoder.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/http/internal/ResponseHelper$ErrorCodeAndMessage.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/ResponseHelper.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/http/internal/RetryTokenUtils.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/RestClient$InvocationInformation.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/http/internal/SyncFutureWaiter$Waiter.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/RestClient$NonSubmittingInvocationBuilder.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/RestClient.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/RestClientFactory.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/RestClientFactoryBuilder.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/RetryUtils.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/WithHeaders.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/WrappedInvocationBuilder.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/http/internal/WrappedWebTarget.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/http/internal/SyncFutureWaiter.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/http/signing/RequestSigner.class\\E"
@@ -2141,28 +3032,22 @@
       "pattern":"\\Qcom/oracle/bmc/http/signing/internal/Version.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/oracle/bmc/internal/ClientThreadFactory$Builder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/internal/ClientThreadFactory.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/oracle/bmc/internal/DefaultEndpointConfiguration.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/internal/EndpointBuilder.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/internal/GuavaUtils.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/io/internal/AutoCloseableContentLengthVerifyingInputStream.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/io/internal/ContentLengthVerifyingInputStream.class\\E"
-    }, 
-    {
       "pattern":"\\Qcom/oracle/bmc/io/internal/KeepOpenInputStream.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/io/internal/ResettableFileInputStream.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/io/internal/WrappedResponseInputStream.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/model/BmcException.class\\E"
@@ -2172,6 +3057,12 @@
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/requests/BmcRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/requests/HasContentLength.class\\E"
+    }, 
+    {
+      "pattern":"\\Qcom/oracle/bmc/responses/BmcResponse$Builder.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/responses/BmcResponse.class\\E"
@@ -2198,9 +3089,6 @@
       "pattern":"\\Qcom/oracle/bmc/retrier/RetryOptions.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/retrier/TokenRefreshRetrier.class\\E"
-    }, 
-    {
       "pattern":"\\Qcom/oracle/bmc/sdk.properties\\E"
     }, 
     {
@@ -2213,16 +3101,13 @@
       "pattern":"\\Qcom/oracle/bmc/secrets/SecretsAsyncClient.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/oracle/bmc/secrets/SecretsClient$Builder.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/oracle/bmc/secrets/SecretsClient.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/secrets/SecretsPaginators.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/secrets/internal/http/GetSecretBundleConverter$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/secrets/internal/http/GetSecretBundleConverter.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/secrets/model/SecretBundle.class\\E"
@@ -2255,25 +3140,10 @@
       "pattern":"\\Qcom/oracle/bmc/util/CircuitBreakerUtils.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/util/JavaRuntimeUtils$JreVersion.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/util/JavaRuntimeUtils.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/util/internal/Consumer.class\\E"
-    }, 
-    {
       "pattern":"\\Qcom/oracle/bmc/util/internal/FileUtils.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/util/internal/HttpUtils.class\\E"
-    }, 
-    {
       "pattern":"\\Qcom/oracle/bmc/util/internal/NameUtils.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/oracle/bmc/util/internal/ReflectionUtils.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/util/internal/StringUtils.class\\E"
@@ -2291,9 +3161,6 @@
       "pattern":"\\Qcom/oracle/bmc/waiter/ExponentialBackoffDelayStrategyWithJitter.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/oracle/bmc/waiter/FixedTimeDelayStrategy.class\\E"
-    }, 
-    {
       "pattern":"\\Qcom/oracle/bmc/waiter/GenericWaiter.class\\E"
     }, 
     {
@@ -2303,433 +3170,22 @@
       "pattern":"\\Qcom/oracle/bmc/waiter/TerminationStrategy.class\\E"
     }, 
     {
+      "pattern":"\\Qcom/oracle/bmc/waiter/Waiter.class\\E"
+    }, 
+    {
       "pattern":"\\Qcom/oracle/bmc/waiter/WaiterConfiguration$WaitContext.class\\E"
     }, 
     {
       "pattern":"\\Qcom/oracle/bmc/waiter/WaiterConfiguration.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/Constants$ArrayEnumeration.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/waiter/WaiterScheduler$1.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/Constants.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/waiter/WaiterScheduler$2.class\\E"
     }, 
     {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/RevalidationHandler.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XML11EntityScanner.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDTDScannerImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$Driver.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$ElementStack.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$ElementStack2.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$FragmentContentDriver.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$ContentDriver.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$PrologDriver.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$TrailingMiscDriver.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$XMLDeclDriver.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLEntityHandler.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLEntityManager$EncodingInfo.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLEntityManager$RewindableInputStream.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLEntityManager.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLEntityScanner$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLEntityScanner.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLErrorReporter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLNSDocumentScannerImpl$NSContentDriver.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLNSDocumentScannerImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLScanner.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/XMLVersionDetector.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/BalancedDTDGrammar.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/DTDGrammar.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/DTDGrammarBucket.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLAttributeDecl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLDTDDescription.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLDTDProcessor.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLDTDValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLDTDValidatorFilter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLElementDecl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLEntityDecl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLNSDTDValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dtd/XMLSimpleType.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/DTDDVFactory.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/DVFactoryException.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/DatatypeException.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/DatatypeValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/InvalidDatatypeValueException.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/ValidationContext.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/DTDDVFactoryImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/ENTITYDatatypeValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/IDDatatypeValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/IDREFDatatypeValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/ListDatatypeValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/NMTOKENDatatypeValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/NOTATIONDatatypeValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/StringDatatypeValidator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/dv/dtd/XML11DTDDVFactoryImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/io/ASCIIReader.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/io/MalformedByteSequenceException.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/io/UCSReader.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/io/UTF16Reader.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/io/UTF8Reader.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/msg/XMLMessageFormatter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/validation/EntityState.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/validation/ValidationManager.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/impl/validation/ValidationState.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/jaxp/SAXParserImpl$JAXPSAXParser.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$2.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$AttributesProxy.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/AbstractSAXParser.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/AbstractXMLDocumentParser.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/SAXParser.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/XIncludeAwareParserConfiguration.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/XML11Configurable.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/XML11Configuration.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/parsers/XMLParser.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/AugmentationsImpl$AugmentationsItemsContainer.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/AugmentationsImpl$LargeContainer.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/AugmentationsImpl$SmallContainer.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/AugmentationsImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/FeatureState.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/MessageFormatter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/NamespaceSupport.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/ParserConfigurationSettings.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/PropertyState.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/Status.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/SymbolTable$Entry.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/SymbolTable.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/URI$MalformedURIException.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/XMLAttributesImpl$Attribute.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/XMLAttributesImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/XMLAttributesIteratorImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/XMLChar.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/XMLResourceIdentifierImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/XMLStringBuffer.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/util/XMLSymbols.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$NameMap.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$State.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager$Property.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager$State.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/Augmentations.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/NamespaceContext.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/QName.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/XMLAttributes.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/XMLDTDContentModelHandler.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/XMLDTDHandler.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/XMLDocumentHandler.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/XMLLocator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/XMLResourceIdentifier.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/XMLString.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/XNIException.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/grammars/Grammar.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/grammars/XMLDTDDescription.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/grammars/XMLGrammarDescription.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLComponent.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLConfigurationException.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLDTDContentModelFilter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLDTDContentModelSource.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLDTDFilter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLDTDScanner.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLDTDSource.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLDocumentFilter.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLDocumentScanner.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLDocumentSource.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLErrorHandler.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLInputSource.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLParseException.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLParserConfiguration.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/org/apache/xerces/internal/xni/parser/XMLPullParserConfiguration.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/xml/internal/stream/Entity$ScannedEntity.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/xml/internal/stream/Entity.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/xml/internal/stream/XMLBufferListener.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/xml/internal/stream/XMLEntityStorage.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/xml/internal/stream/util/BufferAllocator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qcom/sun/xml/internal/stream/util/ThreadLocalBufferAllocator.class\\E"
+      "pattern":"\\Qcom/oracle/bmc/waiter/WaiterScheduler.class\\E"
     }, 
     {
       "pattern":"\\Qio/github/resilience4j/circuitbreaker/CallNotPermittedException.class\\E"
@@ -2888,7 +3344,151 @@
       "pattern":"\\Qio/vavr/control/Validation.class\\E"
     }, 
     {
+      "pattern":"\\Qjakarta/persistence/Cache.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/EntityExistsException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/EntityGraph.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/EntityManager.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/EntityNotFoundException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/EntityTransaction.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/FlushModeType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/LockTimeoutException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/OptimisticLockException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/Persistence.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/PersistenceException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/PersistenceUnitUtil.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/PersistenceUtil.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/PessimisticLockException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/Query.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/StoredProcedureQuery.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/TransactionRequiredException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/TypedQuery.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/criteria/CriteriaBuilder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/Attribute.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/BasicType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/Bindable.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/CollectionAttribute.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/EmbeddableType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/EntityType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/IdentifiableType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/ListAttribute.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/ManagedType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/MapAttribute.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/MappedSuperclassType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/Metamodel.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/PluralAttribute.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/SetAttribute.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/SingularAttribute.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/Type$PersistenceType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/metamodel/Type.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/ClassTransformer.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceProvider.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceProviderResolver.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceProviderResolverHolder$DefaultPersistenceProviderResolver$CacheKey.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceProviderResolverHolder$DefaultPersistenceProviderResolver$CacheKeyReference.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceProviderResolverHolder$DefaultPersistenceProviderResolver$LoaderReference.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceProviderResolverHolder$DefaultPersistenceProviderResolver$PersistenceProviderReference.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceProviderResolverHolder$DefaultPersistenceProviderResolver.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceProviderResolverHolder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjakarta/persistence/spi/PersistenceUnitTransactionType.class\\E"
+    }, 
+    {
       "pattern":"\\Qjava/io/Serializable.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjava/lang/CharSequence.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjava/lang/Comparable.class\\E"
     }, 
     {
       "pattern":"\\Qjava/lang/Object.class\\E"
@@ -2897,10 +3497,19 @@
       "pattern":"\\Qjava/lang/String.class\\E"
     }, 
     {
+      "pattern":"\\Qjava/lang/constant/Constable.class\\E"
+    }, 
+    {
+      "pattern":"\\Qjava/lang/constant/ConstantDesc.class\\E"
+    }, 
+    {
       "pattern":"\\Qlogging.properties\\E"
     }, 
     {
       "pattern":"\\Qmozilla/public-suffix-list.txt\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/i18n/util/GDKOracleMetaData.class\\E"
     }, 
     {
       "pattern":"\\Qoracle/jdbc/AccessToken.class\\E"
@@ -3543,6 +4152,9 @@
     }, 
     {
       "pattern":"\\Qoracle/jdbc/driver/PlsqlRawBinder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/jdbc/driver/PropertiesFileUtil$Interpreter.class\\E"
     }, 
     {
       "pattern":"\\Qoracle/jdbc/driver/PropertiesFileUtil.class\\E"
@@ -4679,6 +5291,12 @@
       "pattern":"\\Qoracle/jdbc/internal/OracleStruct.class\\E"
     }, 
     {
+      "pattern":"\\Qoracle/jdbc/internal/OracleTimestamp.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/jdbc/internal/OracleTimestampWithTimeZone.class\\E"
+    }, 
+    {
       "pattern":"\\Qoracle/jdbc/internal/OracleTypeMetaData$Array.class\\E"
     }, 
     {
@@ -4814,6 +5432,9 @@
       "pattern":"\\Qoracle/net/jdbc/nl/NLException.class\\E"
     }, 
     {
+      "pattern":"\\Qoracle/net/jdbc/nl/NLParamParser.class\\E"
+    }, 
+    {
       "pattern":"\\Qoracle/net/jdbc/nl/NVFactory.class\\E"
     }, 
     {
@@ -4824,6 +5445,9 @@
     }, 
     {
       "pattern":"\\Qoracle/net/jdbc/nl/NVTokens.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/net/jdbc/nl/NetStrings.class\\E"
     }, 
     {
       "pattern":"\\Qoracle/net/jdbc/nl/UninitializedObjectException.class\\E"
@@ -5000,6 +5624,21 @@
       "pattern":"\\Qoracle/net/resolver/EZConnectResolver.class\\E"
     }, 
     {
+      "pattern":"\\Qoracle/net/resolver/EnvVariableResolver.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/net/resolver/HostnameNamingAdapter.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/net/resolver/NameResolver.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/net/resolver/NameResolverFactory.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/net/resolver/NamingAdapterInterface.class\\E"
+    }, 
+    {
       "pattern":"\\Qoracle/net/resolver/NavAddress.class\\E"
     }, 
     {
@@ -5018,10 +5657,529 @@
       "pattern":"\\Qoracle/net/resolver/NavServiceAlias.class\\E"
     }, 
     {
+      "pattern":"\\Qoracle/net/resolver/TNSFile.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/net/resolver/TNSNamesNamingAdapter.class\\E"
+    }, 
+    {
       "pattern":"\\Qoracle/net/resolver/TimeUnitSuffixUtility.class\\E"
     }, 
     {
+      "pattern":"\\Qoracle/ons/ConfigurationException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/CreatePermission.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/DefaultSocketManager$DefaultSocket.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/DefaultSocketManager.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/MessageReader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/NoServersAvailable.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/Node$NodeConnectAction.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/Node.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/NodeAddress.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/NotificationException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/NotificationManager$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/NotificationManager$MaintenanceTask.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/NotificationManager.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/NotificationNetwork$RefreshConnectionsTask.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/NotificationNetwork.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/ONSConfiguration$NodeList.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/ONSConfiguration.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/ONSException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/PublishPermission.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/ServerError.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/SystemEvent$NodeDown.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/SystemEvent.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/ThreadPoolWorkloadManager$ExecutorThread.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/ThreadPoolWorkloadManager$SimpleDelayedTask.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/ThreadPoolWorkloadManager.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/WebSocket.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/rpc/RpcServer.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/spi/ONSSocket.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/spi/SocketCallback.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/spi/SocketManager.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/ons/spi/WorkloadManager.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1BitString.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Boolean.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Constructed.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1ConstructedInputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Date.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1FormatException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1GenericConstructed.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1GenericPrimitive.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Header.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Integer.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Null.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1ObjectID.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1OctetString.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Sequence.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1SequenceInputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Set$a.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Set.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1SetInputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1String.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1TaggedObject.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/ASN1Utils.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/asn1/a.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/AttributeSet.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/AttributeTypeAndValue.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/AuthorityInfoAccess.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/CRLDistPoint.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/Certificate.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/CertificateRequest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/Entity.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/GeneralName.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/OIDRegistrar.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/PKCS12.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/PKCS12CRLBag.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/PKCS12CertBag.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/PKCS12Safe.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/PKCS12SafeContentsBag.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/PKCS12SecretBag.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/PKCS12ShroudedKeyBag.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/PKIX.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/X500Name.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/X500RDN.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/X509$X509CertificateImpl.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/X509.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/X509Extension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/X509ExtensionSet.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/X509PolicyInformation.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/AuthorityInfoAccessExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/AuthorityKeyIDExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/BasicConstraintsExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/CRLCertificateIssuerExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/CRLDistPointExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/CRLHoldInstructionExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/CRLInvalidityDateExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/CRLNumberExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/CRLReasonExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/CertificatePoliciesExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/DeltaCRLIndicatorExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/ExtKeyUsageExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/IssuerAltNameExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/IssuingDistPointExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/KeyUsageExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/NameConstraintsExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/NetscapeCertTypeExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/PolicyConstraintsExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/SubjectAltNameExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/cert/ext/SubjectKeyIDExtension.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/AlgID.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/AlgorithmIdentifier.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/AlgorithmIdentifierException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/BlockCipher.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/CBCAlgorithmIdentifier.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/Cipher$a.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/Cipher.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/CipherException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/Coder.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/CoderException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/DES.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/DES_EDE.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/DigestInfo.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/InvalidKeyLengthException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/KeyPairGenerator.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/MessageDigest.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/OAEPAlgorithmIdentifier.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/PBE.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/PBEAlgorithmIdentifier.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/PKCS12PBE.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/Padding$ID.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/Padding.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/RSA.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/RSAKeyPairGenerator.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/RSAMDSignature.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/RSApkcs1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/SHA.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/Signature.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/SignatureException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/SymmetricKey.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/SymmetricKeyGenerator.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/a.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/b.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/core/math/BigInt.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/fips/FIPS_140_2.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/fips/KeyExportException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/fips/ModuleState.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/fips/SelfTestException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/provider/JCEUtil.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/provider/TransitionMode.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/provider/a.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/provider/d.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/CryptoUtils.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/FixedByteArrayOutputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/IntConstant.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/InvalidFormatException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/InvalidInputException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/OIDManager$a.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/OIDManager.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/OIDSecurityException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/OutputGenerationException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/StreamableInputException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/StreamableOutputException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/UnsyncByteArrayInputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/UnsyncByteArrayOutputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/Utils.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/VectorOverArrayList.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/crypto/util/VersionException.class\\E"
+    }, 
+    {
       "pattern":"\\Qoracle/security/o5logon/O5Logon.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/C041.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/IvParameterSpec.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OracleKeyStoreSpi$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OracleLocalKeyId.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OraclePKIDebug.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OraclePKIPrincipalImpl.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OraclePKIProvider.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OraclePKIRSAPrivateKey.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OraclePKIRSAPublicKey.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OraclePKIX509CertImpl.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OracleSSOKeyStoreSpi$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/security/pki/OracleWalletPermission.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/simplefan/FanSubscription.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/simplefan/impl/FanManager$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/simplefan/impl/FanManager.class\\E"
     }, 
     {
       "pattern":"\\Qoracle/sql/ARRAY.class\\E"
@@ -5069,6 +6227,15 @@
       "pattern":"\\Qoracle/sql/CharacterSet.class\\E"
     }, 
     {
+      "pattern":"\\Qoracle/sql/CharacterSet12Byte.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/CharacterSet1Byte.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/CharacterSet2ByteFixed.class\\E"
+    }, 
+    {
       "pattern":"\\Qoracle/sql/CharacterSetAL16UTF16.class\\E"
     }, 
     {
@@ -5087,6 +6254,18 @@
       "pattern":"\\Qoracle/sql/CharacterSetFactoryThin.class\\E"
     }, 
     {
+      "pattern":"\\Qoracle/sql/CharacterSetGB18030.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/CharacterSetJAEUC.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/CharacterSetSJIS.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/CharacterSetShift.class\\E"
+    }, 
+    {
       "pattern":"\\Qoracle/sql/CharacterSetUTF.class\\E"
     }, 
     {
@@ -5094,6 +6273,12 @@
     }, 
     {
       "pattern":"\\Qoracle/sql/CharacterSetUnknown.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/CharacterSetWithConverter.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/CharacterSetZHTEUC.class\\E"
     }, 
     {
       "pattern":"\\Qoracle/sql/ClobDBAccess.class\\E"
@@ -5153,6 +6338,15 @@
       "pattern":"\\Qoracle/sql/StructDescriptor.class\\E"
     }, 
     {
+      "pattern":"\\Qoracle/sql/TIMESTAMP.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/TIMESTAMPLTZ.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/TIMESTAMPTZ.class\\E"
+    }, 
+    {
       "pattern":"\\Qoracle/sql/TableClass.class\\E"
     }, 
     {
@@ -5163,6 +6357,9 @@
     }, 
     {
       "pattern":"\\Qoracle/sql/converter/CharacterConverterFactory.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/sql/converter/CharacterConverterFactoryJDBC.class\\E"
     }, 
     {
       "pattern":"\\Qoracle/sql/converter/CharacterConverterFactoryOGS.class\\E"
@@ -5252,37 +6449,274 @@
       "pattern":"\\Qoracle/sql/json/OracleJsonValue.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/BinaryDecoder.class\\E"
+      "pattern":"\\Qoracle/xml/comp/CXMLConstants.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/BinaryEncoder.class\\E"
+      "pattern":"\\Qoracle/xml/comp/CXMLHandlerBase.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/Charsets.class\\E"
+      "pattern":"\\Qoracle/xml/parser/schema/XSDComponent.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/Decoder.class\\E"
+      "pattern":"\\Qoracle/xml/parser/schema/XSDConstantValues.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/DecoderException.class\\E"
+      "pattern":"\\Qoracle/xml/parser/schema/XSDElement.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/Encoder.class\\E"
+      "pattern":"\\Qoracle/xml/parser/schema/XSDException.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/EncoderException.class\\E"
+      "pattern":"\\Qoracle/xml/parser/schema/XSDNode.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/binary/Base64.class\\E"
+      "pattern":"\\Qoracle/xml/parser/schema/XSDParticleNode.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/binary/BaseNCodec$Context.class\\E"
+      "pattern":"\\Qoracle/xml/parser/schema/XSDTypeConstants.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/binary/BaseNCodec.class\\E"
+      "pattern":"\\Qoracle/xml/parser/schema/XSDValidator.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/apache/commons/codec/binary/StringUtils.class\\E"
+      "pattern":"\\Qoracle/xml/parser/v2/AttrDecl.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/CharData.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/DTD.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/DTD2SchemaConstants.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/DefaultXMLDocumentHandler.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/ElementDecl.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/NSName.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/NSResolver.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/NonValidatingParser.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/ParserState.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/PrintDriver.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/SAXAttrList.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/SAXParser$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/SAXParser.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/ScalableDOMPrintDriver.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/TypedAttributes.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/ValidatingParser.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLAttr.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLByteReader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLCDATA.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLCharReader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLComment.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLConstants.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLContentHandler.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLDOMException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLDOMImplementation.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLDeclPI.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLDocument.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLDocumentFragment.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLDocumentHandler.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLElement.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLEntity.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLEntityReference.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLError.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLExternalReader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLLocator.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLMultiHandler.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLNSNode.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLNode.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLNodeInputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLNodeOutputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLNodeReader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLNodeWriter.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLNotation.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLPI.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLParseException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLParser$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLParser.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLPrintDriver.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLReader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLText.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLUCS2Reader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLUCS4Reader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XMLUTF8Reader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XSLException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/parser/v2/XSLTContext.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/scalable/ContentManager.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/scalable/InfosetReader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/scalable/InfosetReader2.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/scalable/InfosetWriter.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/NSName.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/NSNameImpl.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/QxName.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/QxNameHash$Validation.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/QxNameHash$WeakValue.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/QxNameHash.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/TagNameHashtable$TagName.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/TagNameHashtable.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/XMLCompatible$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/XMLCompatible.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/XMLError.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/XMLException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/XMLProperties.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/util/XMLUtil.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/xpath/XPathRuntimeContext.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/xqxp/XQException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/xqxp/functions/OXMLFunctionContext.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/xslt/XSLConstants.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/xslt/XSLException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qoracle/xml/xslt/XSLTContext.class\\E"
     }, 
     {
       "pattern":"\\Qorg/apache/commons/logging/LogConfigurationException.class\\E"
@@ -5768,6 +7202,9 @@
       "pattern":"\\Qorg/apache/http/entity/BasicHttpEntity.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/apache/http/entity/BufferedHttpEntity.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/apache/http/entity/ContentLengthStrategy.class\\E"
     }, 
     {
@@ -6027,6 +7464,9 @@
     }, 
     {
       "pattern":"\\Qorg/apache/http/impl/execchain/RequestAbortedException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/apache/http/impl/execchain/RequestEntityProxy.class\\E"
     }, 
     {
       "pattern":"\\Qorg/apache/http/impl/execchain/ResponseEntityProxy.class\\E"
@@ -7109,6 +8549,9 @@
       "pattern":"\\Qorg/eclipse/persistence/internal/databaseaccess/DatabaseAccessor.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/eclipse/persistence/internal/databaseaccess/DatabaseCall$1.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/eclipse/persistence/internal/databaseaccess/DatabaseCall.class\\E"
     }, 
     {
@@ -7116,6 +8559,9 @@
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/databaseaccess/DatasourceAccessor.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/databaseaccess/DatasourceCall$ParameterType.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/databaseaccess/DatasourceCall.class\\E"
@@ -7205,6 +8651,9 @@
       "pattern":"\\Qorg/eclipse/persistence/internal/expressions/ExpressionSQLPrinter.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/eclipse/persistence/internal/expressions/ExtractOperator.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/eclipse/persistence/internal/expressions/FieldExpression.class\\E"
     }, 
     {
@@ -7280,9 +8729,6 @@
       "pattern":"\\Qorg/eclipse/persistence/internal/expressions/SQLUpdateStatement.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/eclipse/persistence/internal/expressions/SpatialExpressionOperators.class\\E"
-    }, 
-    {
       "pattern":"\\Qorg/eclipse/persistence/internal/expressions/SubSelectExpression.class\\E"
     }, 
     {
@@ -7301,13 +8747,16 @@
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/ConcurrencyManager.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/eclipse/persistence/internal/helper/ConcurrencySemaphore.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/helper/ConcurrencyUtil.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/ConcurrentFixedCache.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/ConversionManager.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/eclipse/persistence/internal/helper/DBPlatformHelper$1.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/DBPlatformHelper.class\\E"
@@ -7352,16 +8801,19 @@
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/NonSynchronizedVector$1.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/eclipse/persistence/internal/helper/NonSynchronizedVector$Itr.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/NonSynchronizedVector.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/QueryCounter.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/eclipse/persistence/internal/helper/ThreadCursoredList.class\\E"
+      "pattern":"\\Qorg/eclipse/persistence/internal/helper/ReadLockManager.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/eclipse/persistence/internal/helper/VendorNameToPlatformMapping.properties\\E"
+      "pattern":"\\Qorg/eclipse/persistence/internal/helper/ThreadCursoredList.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/XMLHelper.class\\E"
@@ -7371,6 +8823,9 @@
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/helper/linkedlist/LinkedNode.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/helper/type/ReadLockAcquisitionMetadata.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/history/DecoratedDatabaseTable.class\\E"
@@ -7518,9 +8973,6 @@
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/jpa/EntityManagerImpl.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/eclipse/persistence/internal/jpa/EntityManagerSetupImpl$TableCreationType.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/jpa/EntityManagerSetupImpl.class\\E"
@@ -7784,6 +9236,9 @@
       "pattern":"\\Qorg/eclipse/persistence/internal/jpa/metadata/converters/TypeConverterMetadata.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/eclipse/persistence/internal/jpa/metadata/converters/UUIDMetadata.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/eclipse/persistence/internal/jpa/metadata/copypolicy/CloneCopyPolicyMetadata.class\\E"
     }, 
     {
@@ -8024,7 +9479,19 @@
       "pattern":"\\Qorg/eclipse/persistence/internal/libraries/asm/Context.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/eclipse/persistence/internal/libraries/asm/EclipseLinkAnnotationVisitor.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/eclipse/persistence/internal/libraries/asm/EclipseLinkClassReader.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/libraries/asm/EclipseLinkClassVisitor.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/libraries/asm/EclipseLinkFieldVisitor.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/libraries/asm/EclipseLinkMethodVisitor.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/libraries/asm/FieldVisitor.class\\E"
@@ -8042,9 +9509,6 @@
       "pattern":"\\Qorg/eclipse/persistence/internal/localization/EclipseLinkLocalization.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/eclipse/persistence/internal/localization/ExceptionLocalization.class\\E"
-    }, 
-    {
       "pattern":"\\Qorg/eclipse/persistence/internal/localization/LoggingLocalization.class\\E"
     }, 
     {
@@ -8055,15 +9519,6 @@
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/mappings/converters/AttributeNamePrefix.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/eclipse/persistence/internal/platform/database/oracle/TIMESTAMPLTZWrapper.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/eclipse/persistence/internal/platform/database/oracle/TIMESTAMPTZWrapper.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/eclipse/persistence/internal/platform/database/oracle/TIMESTAMPTypes.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/queries/CallQueryMechanism.class\\E"
@@ -8115,6 +9570,21 @@
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/security/JCEEncryptor$Synergizer.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/security/PrivilegedAccessHelper$CallableExceptionSupplier.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/security/PrivilegedAccessHelper$CallableThrowableSupplier.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/security/PrivilegedAccessHelper$PrivilegedCallable.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/security/PrivilegedAccessHelper$PrivilegedExceptionCallable.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/security/PrivilegedAccessHelper$PrivilegedExceptionConsumer.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/security/PrivilegedAccessHelper.class\\E"
@@ -8238,6 +9708,9 @@
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/sessions/PropertiesHandler$IdValidationProp.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/internal/sessions/PropertiesHandler$JTACntrlrProp.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/internal/sessions/PropertiesHandler$LoggerTypeProp.class\\E"
@@ -8612,6 +10085,9 @@
       "pattern":"\\Qorg/eclipse/persistence/sessions/CopyGroup.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/eclipse/persistence/sessions/DataRecord.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/eclipse/persistence/sessions/DatabaseLogin.class\\E"
     }, 
     {
@@ -8636,13 +10112,7 @@
       "pattern":"\\Qorg/eclipse/persistence/sessions/Login.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/eclipse/persistence/sessions/ObjectCopyingPolicy.class\\E"
-    }, 
-    {
       "pattern":"\\Qorg/eclipse/persistence/sessions/Project.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/eclipse/persistence/sessions/Record.class\\E"
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/sessions/Session.class\\E"
@@ -8754,6 +10224,9 @@
     }, 
     {
       "pattern":"\\Qorg/eclipse/persistence/tools/tuning/SessionTuner.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/eclipse/persistence/version.properties\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/hk2/api/ActiveDescriptor.class\\E"
@@ -9239,6 +10712,12 @@
       "pattern":"\\Qorg/glassfish/jersey/apache/connector/ApacheConnectionClosingStrategy.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/glassfish/jersey/apache/connector/ApacheConnector$1$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/apache/connector/ApacheConnector$1.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/glassfish/jersey/apache/connector/ApacheConnector$ConnectionClosingMechanism$1.class\\E"
     }, 
     {
@@ -9252,6 +10731,9 @@
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/AbortException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/client/AbstractNonSyncInvoker.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/ChunkedInput.class\\E"
@@ -9299,13 +10781,10 @@
       "pattern":"\\Qorg/glassfish/jersey/client/ClientExecutor.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/glassfish/jersey/client/ClientExecutorProvidersConfigurator$ClientExecutorServiceProvider.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/glassfish/jersey/client/ClientExecutorProvidersConfigurator.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/client/ClientFilteringStages$RequestFilteringStage.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/client/ClientFilteringStages$ResponseFilterStage.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/ClientFilteringStages.class\\E"
@@ -9335,7 +10814,13 @@
       "pattern":"\\Qorg/glassfish/jersey/client/ClientRuntime$1.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/glassfish/jersey/client/ClientRuntime$2.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/glassfish/jersey/client/ClientRuntime.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/client/CompletableFutureAsyncInvoker.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/DefaultClientAsyncExecutorProvider$1.class\\E"
@@ -9357,6 +10842,9 @@
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/InboundJaxrsResponse$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/client/InboundJaxrsResponse$2.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/InboundJaxrsResponse.class\\E"
@@ -9398,13 +10886,22 @@
       "pattern":"\\Qorg/glassfish/jersey/client/JerseyClient.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/glassfish/jersey/client/JerseyClientBuilder.class\\E"
+      "pattern":"\\Qorg/glassfish/jersey/client/JerseyCompletionStageRxInvoker.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/client/JerseyInvocation$AsyncInvoker.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/client/JerseyInvocation$Builder$BestServiceHolder.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/JerseyInvocation$Builder.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/JerseyInvocation$EntityPresence.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/client/JerseyInvocation$InvocationResponseCallback.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/JerseyInvocation.class\\E"
@@ -9447,9 +10944,6 @@
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/spi/ClientBuilderListener.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/client/spi/Connector.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/client/spi/ConnectorProvider.class\\E"
@@ -9572,6 +11066,9 @@
       "pattern":"\\Qorg/glassfish/jersey/internal/ContextResolverFactory.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/glassfish/jersey/internal/Errors$1.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/glassfish/jersey/internal/Errors$ErrorMessagesException.class\\E"
     }, 
     {
@@ -9656,10 +11153,13 @@
       "pattern":"\\Qorg/glassfish/jersey/internal/config/SystemPropertiesConfigurationProvider.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/glassfish/jersey/internal/guava/InetAddresses.class\\E"
+      "pattern":"\\Qorg/glassfish/jersey/internal/guava/Preconditions.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/glassfish/jersey/internal/guava/Preconditions.class\\E"
+      "pattern":"\\Qorg/glassfish/jersey/internal/guava/ThreadFactoryBuilder$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/internal/guava/ThreadFactoryBuilder.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/internal/inject/AbstractBinder.class\\E"
@@ -9741,6 +11241,9 @@
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/internal/inject/ProviderBinder$1.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/internal/inject/ProviderBinder$3.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/internal/inject/ProviderBinder$4.class\\E"
@@ -9896,9 +11399,6 @@
       "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/StringKeyIgnoreCaseMultivaluedMap.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/UnsafeValue.class\\E"
-    }, 
-    {
       "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/Value.class\\E"
     }, 
     {
@@ -9927,18 +11427,6 @@
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/Views$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/Views$2$1$1$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/Views$2$1$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/Views$2$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/Views$2.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/internal/util/collection/Views.class\\E"
@@ -10058,9 +11546,6 @@
       "pattern":"\\Qorg/glassfish/jersey/message/internal/GrammarUtil.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/glassfish/jersey/message/internal/HeaderUtils$1.class\\E"
-    }, 
-    {
       "pattern":"\\Qorg/glassfish/jersey/message/internal/HeaderUtils.class\\E"
     }, 
     {
@@ -10101,9 +11586,6 @@
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/message/internal/InboundMessageContext$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/message/internal/InboundMessageContext$4.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/message/internal/InboundMessageContext$5.class\\E"
@@ -10295,6 +11777,15 @@
       "pattern":"\\Qorg/glassfish/jersey/message/internal/Utils.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/glassfish/jersey/message/internal/WriterInterceptorExecutor$TerminalWriterInterceptor.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/message/internal/WriterInterceptorExecutor$UnCloseableOutputStream.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/glassfish/jersey/message/internal/WriterInterceptorExecutor.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/glassfish/jersey/model/ContractProvider$Builder.class\\E"
     }, 
     {
@@ -10334,7 +11825,7 @@
       "pattern":"\\Qorg/glassfish/jersey/model/internal/RankedProvider.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/glassfish/jersey/process/Inflector.class\\E"
+      "pattern":"\\Qorg/glassfish/jersey/process/JerseyProcessingUncaughtExceptionHandler.class\\E"
     }, 
     {
       "pattern":"\\Qorg/glassfish/jersey/process/internal/AbstractChainableStage.class\\E"
@@ -10442,13 +11933,7 @@
       "pattern":"\\Qorg/glassfish/jersey/uri/UriTemplate.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/glassfish/jersey/uri/internal/CharacterIterator.class\\E"
-    }, 
-    {
       "pattern":"\\Qorg/glassfish/jersey/uri/internal/JerseyUriBuilder$1.class\\E"
-    }, 
-    {
-      "pattern":"\\Qorg/glassfish/jersey/uri/internal/UriParser.class\\E"
     }, 
     {
       "pattern":"\\Qorg/ietf/jgss/GSSException.class\\E"
@@ -10479,6 +11964,9 @@
     }, 
     {
       "pattern":"\\Qorg/jvnet/hk2/internal/AutoActiveDescriptor.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/jvnet/hk2/internal/CacheKey$1.class\\E"
     }, 
     {
       "pattern":"\\Qorg/jvnet/hk2/internal/CacheKey.class\\E"
@@ -10712,10 +12200,133 @@
       "pattern":"\\Qorg/slf4j/spi/LoggerFactoryBinder.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/w3c/dom/Attr.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/CDATASection.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/CharacterData.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/Comment.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/DOMConfiguration.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/DOMError.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/DOMException.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/DOMImplementation.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/DOMLocator.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/DOMStringList.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/w3c/dom/Document.class\\E"
     }, 
     {
+      "pattern":"\\Qorg/w3c/dom/DocumentFragment.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/DocumentType.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/Element.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/Entity.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/EntityReference.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/NameList.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/NamedNodeMap.class\\E"
+    }, 
+    {
       "pattern":"\\Qorg/w3c/dom/Node.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/NodeList.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/Notation.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/ProcessingInstruction.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/Text.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/TypeInfo.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/events/DocumentEvent.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/events/Event.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/events/EventListener.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/events/EventTarget.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/events/MutationEvent.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/ls/DOMImplementationLS.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/ls/LSInput.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/ls/LSOutput.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/ls/LSParser.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/ls/LSSerializer.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/ranges/Range.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/traversal/DocumentTraversal.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/traversal/NodeIterator.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/traversal/TreeWalker.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/validation/CharacterDataEditVAL.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/validation/DocumentEditVAL.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/validation/ElementEditVAL.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/validation/ExceptionVAL.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/w3c/dom/validation/NodeEditVAL.class\\E"
     }, 
     {
       "pattern":"\\Qorg/xml/sax/AttributeList.class\\E"
@@ -10737,6 +12348,9 @@
     }, 
     {
       "pattern":"\\Qorg/xml/sax/ErrorHandler.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/xml/sax/HandlerBase.class\\E"
     }, 
     {
       "pattern":"\\Qorg/xml/sax/InputSource.class\\E"
@@ -10763,13 +12377,16 @@
       "pattern":"\\Qorg/xml/sax/XMLReader.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/xml/sax/ext/Attributes2.class\\E"
+      "pattern":"\\Qorg/xml/sax/ext/DeclHandler.class\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/xml/sax/ext/LexicalHandler.class\\E"
     }, 
     {
       "pattern":"\\Qorg/xml/sax/ext/Locator2.class\\E"
     }, 
     {
-      "pattern":"\\Qorg/xml/sax/helpers/LocatorImpl.class\\E"
+      "pattern":"\\Qorg/xml/sax/helpers/DefaultHandler.class\\E"
     }
   ]},
   "bundles":[
@@ -10781,20 +12398,38 @@
       ]
     }, 
     {
+      "name":"oracle.net.jdbc.nl.mesg.NLSR",
+      "classNames":[
+        "oracle.net.jdbc.nl.mesg.NLSR", 
+        "oracle.net.jdbc.nl.mesg.NLSR_en"
+      ]
+    }, 
+    {
       "name":"oracle.net.mesg.Message",
       "locales":["und"]
+    }, 
+    {
+      "name":"oracle.security.pki.resources.OraclePKIMsg",
+      "classNames":[
+        "oracle.security.pki.resources.OraclePKIMsg", 
+        "oracle.security.pki.resources.OraclePKIMsg_en"
+      ]
+    }, 
+    {
+      "name":"oracle.xml.mesg.XMLResourceBundle",
+      "classNames":["oracle.xml.mesg.XMLResourceBundle"]
     }, 
     {
       "name":"org.eclipse.persistence.exceptions.i18n.ConversionExceptionResource",
       "classNames":["org.eclipse.persistence.exceptions.i18n.ConversionExceptionResource"]
     }, 
     {
-      "name":"org.eclipse.persistence.exceptions.i18n.ExceptionResource",
-      "classNames":["org.eclipse.persistence.exceptions.i18n.ExceptionResource"]
+      "name":"org.eclipse.persistence.exceptions.i18n.DatabaseExceptionResource",
+      "classNames":["org.eclipse.persistence.exceptions.i18n.DatabaseExceptionResource"]
     }, 
     {
-      "name":"org.eclipse.persistence.internal.localization.i18n.ExceptionLocalizationResource",
-      "classNames":["org.eclipse.persistence.internal.localization.i18n.ExceptionLocalizationResource"]
+      "name":"org.eclipse.persistence.exceptions.i18n.ExceptionResource",
+      "classNames":["org.eclipse.persistence.exceptions.i18n.ExceptionResource"]
     }, 
     {
       "name":"org.eclipse.persistence.internal.localization.i18n.LoggingLocalizationResource",

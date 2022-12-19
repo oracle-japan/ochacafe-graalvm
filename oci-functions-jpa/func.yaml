@@ -3,7 +3,14 @@ name: graaljpafunc
 version: 0.0.1
 config:
   JDBC_DRIVER: oracle.jdbc.driver.OracleDriver
+  # JDBC_PASSWORD か JDBC_PASSWORD_SECRET_ID のどちらかを設定する
+  # JDBC_PASSWORD が設定されている時は、OCI Secret にはアクセスしない
+  JDBC_PASSWORD: xxxx
   JDBC_PASSWORD_SECRET_ID: ocid1.vaultsecret.oc1.iad.xxxxxxxxxxxxxxxxxxxxx
+  # ADBに接続する場合 jdbc:oracle:thin:@<TNS alias>?TNS_ADMIN=<ADB_WALLET_DIR と同じ値>
   JDBC_URL: jdbc:oracle:thin:@...
   JDBC_USER: DEMO
   OCI_REGION: us-ashburn-1
+  # ADB_WALLET_DIR が指定された場合 Wallet ファイルをダウンロードする - ADB_ID は必須
+  ADB_WALLET_DIR: /tmp/wallet
+  ADB_ID: ocid1.autonomousdatabase.oc1.iad.xxxxxxxxxxxx

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <fdk.version>1.0.149</fdk.version>
-        <oci.sdk.version>2.36.1</oci.sdk.version>
-        <oracle.jdbc.version>21.5.0.0</oracle.jdbc.version>
-        <jackson.yaml.version>2.13.2</jackson.yaml.version>
-        <native.maven.plugin.version>0.9.13</native.maven.plugin.version>
+        <fdk.version>1.0.162</fdk.version>
+        <oci.sdk.version>3.2.0</oci.sdk.version>
+        <oracle.jdbc.version>21.8.0.0</oracle.jdbc.version>
+        <jackson.yaml.version>2.14.1</jackson.yaml.version>
+        <native.maven.plugin.version>0.9.19</native.maven.plugin.version>
         <exec.mainClass>com.fnproject.fn.runtime.EntryPoint</exec.mainClass>
     </properties>
 
@@ -15,21 +18,32 @@
     <artifactId>graaljpafunc</artifactId>
     <version>1.0.0</version>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.oracle.oci.sdk</groupId>
+                <artifactId>oci-java-sdk-bom</artifactId>
+                <version>${oci.sdk.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
 
+        <!-- FDK Java api, runtime, testing -->
+        <dependency>
+            <groupId>com.fnproject.fn</groupId>
+            <artifactId>api</artifactId>
+            <version>${fdk.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.fnproject.fn</groupId>
             <artifactId>runtime</artifactId>
             <version>${fdk.version}</version>
             <scope>runtime</scope>
         </dependency>
-
-        <dependency>
-            <groupId>com.fnproject.fn</groupId>
-            <artifactId>api</artifactId>
-            <version>${fdk.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>com.fnproject.fn</groupId>
             <artifactId>testing-core</artifactId>
@@ -42,54 +56,59 @@
             <version>${fdk.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- Eclipselink & Oracle JDBC Driver -->
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>eclipselink</artifactId>
-            <version>2.7.5</version>
+            <version>4.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>org.eclipse.persistence.jpa</artifactId>
+            <version>4.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.database.jdbc</groupId>
-            <artifactId>ojdbc11</artifactId>
+            <artifactId>ojdbc11-production</artifactId>
             <version>${oracle.jdbc.version}</version>
+            <type>pom</type>
         </dependency>
 
         <!-- Oracle OCI SDK -->
+        <!--
         <dependency>
             <groupId>com.oracle.oci.sdk</groupId>
-            <artifactId>oci-java-sdk-common</artifactId>
-            <version>${oci.sdk.version}</version>
+            <artifactId>oci-java-sdk-shaded-full</artifactId>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>com.oracle.oci.sdk</groupId>
+            <artifactId>oci-java-sdk-common-httpclient-jersey</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.oci.sdk</groupId>
+            <artifactId>oci-java-sdk-keymanagement</artifactId>
         </dependency>
         <dependency>
             <groupId>com.oracle.oci.sdk</groupId>
             <artifactId>oci-java-sdk-vault</artifactId>
-            <version>${oci.sdk.version}</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.oci.sdk</groupId>
             <artifactId>oci-java-sdk-secrets</artifactId>
-            <version>${oci.sdk.version}</version>
         </dependency>
         <dependency>
-            <groupId>javax.activation</groupId>
-            <artifactId>activation</artifactId>
-            <version>1.1.1</version>
+            <groupId>com.oracle.oci.sdk</groupId>
+            <artifactId>oci-java-sdk-database</artifactId>
         </dependency>
 
+        <!-- for logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-jdk14</artifactId>
             <version>1.7.36</version>
-            <scope>test</scope>
         </dependency>
-
 
         <!-- for testing -->
         <dependency>
@@ -118,7 +137,9 @@
                 <version>2.22.1</version>
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
-                    <argLine>--add-opens java.xml/jdk.xml.internal=ALL-UNNAMED -agentlib:native-image-agent=config-merge-dir=${project.basedir}/target/native/agent-output/test/${project.groupId}/${project.artifactId},access-filter-file=${project.basedir}/access-filter.json</argLine>
+                    <argLine>
+                        --add-opens java.xml/jdk.xml.internal=ALL-UNNAMED
+                        -agentlib:native-image-agent=config-merge-dir=${project.basedir}/target/native/agent-output/test/${project.groupId}/${project.artifactId},access-filter-file=${project.basedir}/access-filter.json</argLine>
                 </configuration>
             </plugin>
             <!-- mvn -Pnative antrun:run@resource-native-image-config -->
@@ -133,10 +154,11 @@
                         <configuration>
                             <target>
                                 <echo message="copy native image config files to src" level="info" />
-                                <copy 
+                                <copy
                                     todir="${project.basedir}/src/main/resources/META-INF/native-image/${project.groupId}/${project.artifactId}"
-                                    overwrite="false" verbose="true" >
-                                    <fileset dir="${project.basedir}/target/native/agent-output/test/${project.groupId}/${project.artifactId}" />
+                                    overwrite="true" verbose="true">
+                                    <fileset
+                                        dir="${project.basedir}/target/native/agent-output/test/${project.groupId}/${project.artifactId}" />
                                 </copy>
                             </target>
                         </configuration>
@@ -181,7 +203,6 @@
                             <verbose>false</verbose>
                             <imageName>func</imageName>
                             <buildArgs>
-                                <arg>--static</arg>
                                 <arg>--enable-url-protocols=https,http</arg>
                                 <arg>--report-unsupported-elements-at-runtime</arg>
                             </buildArgs>
@@ -191,6 +212,5 @@
             </build>
         </profile>
     </profiles>
-
 
 </project>

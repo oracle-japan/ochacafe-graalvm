@@ -2,7 +2,9 @@ package com.example.fn;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 import static org.junit.Assert.assertEquals;
 
@@ -31,15 +33,21 @@ public class HelloFunctionTest {
     }
 
     @Rule
-    public final FnTestingRule testing = FnTestingRule.createDefault()
-    .setConfig("JDBC_DRIVER", config.get("JDBC_DRIVER").asText())
-    .setConfig("JDBC_URL", config.get("JDBC_URL").asText())
-    .setConfig("JDBC_USER", config.get("JDBC_USER").asText())
-    .setConfig("JDBC_PASSWORD_SECRET_ID", config.get("JDBC_PASSWORD_SECRET_ID").asText())
-    .setConfig("OCI_REGION", config.get("OCI_REGION").asText());
+    public final FnTestingRule testing = FnTestingRule.createDefault();
 
     @Test
     public void test(){
+
+        String[] configs = {
+            "OCI_REGION", "JDBC_DRIVER", "JDBC_URL", "JDBC_USER", "JDBC_PASSWORD",
+            "JDBC_PASSWORD_SECRET_ID", "JDBC_PASSWORD_SECRET","JDBC_PASSWORD_SECRET","ADB_ID","ADB_WALLET_DIR"
+        };
+
+        Arrays.stream(configs).forEach(c -> {
+            JsonNode val = config.get(c);
+            if(Objects.nonNull(val)) 
+                testing.setConfig(c, val.asText());
+        });
 
         testing.givenEvent().withBody("1").enqueue();
         testing.givenEvent().withBody("81").enqueue();

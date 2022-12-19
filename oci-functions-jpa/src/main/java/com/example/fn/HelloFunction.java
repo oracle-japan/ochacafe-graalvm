@@ -4,13 +4,14 @@ package com.example.fn;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 
 import com.fnproject.fn.api.FnConfiguration;
 import com.fnproject.fn.api.RuntimeContext;
@@ -24,20 +25,40 @@ public class HelloFunction {
     @FnConfiguration
     public void setUp(RuntimeContext rctx) {
 
+        java.security.Security.setProperty("networkaddress.cache.ttl" , "0");
+
         try{
             final Map<String, String> config = rctx.getConfiguration();
             //System.out.println(config);
+            //System.getenv().entrySet().forEach(e -> System.out.println(e.getKey() + ": " + e.getValue()));
             
             // OCI Secret の取得
             OciSecrets ociSecrets = new OciSecrets();
-            String password = ociSecrets.getSecretById(config.get("OCI_REGION"), config.get("JDBC_PASSWORD_SECRET_ID"));
-    
+            String region = config.get("OCI_REGION");
+            String password = config.get("JDBC_PASSWORD");
+            if(Objects.isNull(password)){
+                password = ociSecrets.getSecretById(region, config.get("JDBC_PASSWORD_SECRET_ID"));
+                logger.fine("Password was retrieved from Secret successfully.");
+            }
+
+            // wallet file の取得
+            String walletDir = config.get("ADB_WALLET_DIR");
+            if(Objects.nonNull(walletDir)){
+                String adbId = config.get("ADB_ID");
+                OciDatabase ociDatabase = new OciDatabase();
+                ociDatabase.downloadWallet(adbId, walletDir, region);
+
+                //System.setProperty("oracle.net.tns_admin", walletDir);
+                //System.setProperty("oracle.net.wallet_location",
+    			//	"(SOURCE=(METHOD=FILE)(METHOD_DATA=(DIRECTORY=" + walletDir + ")))");
+            }
+
             // JPA EntityManagerFactory の取得
             final Map<String, String> props = new HashMap<>();
-            props.put("javax.persistence.jdbc.driver", config.get("JDBC_DRIVER"));
-            props.put("javax.persistence.jdbc.url", config.get("JDBC_URL"));
-            props.put("javax.persistence.jdbc.user", config.get("JDBC_USER"));
-            props.put("javax.persistence.jdbc.password", password);
+            props.put("jakarta.persistence.jdbc.driver", config.get("JDBC_DRIVER"));
+            props.put("jakarta.persistence.jdbc.url", config.get("JDBC_URL"));
+            props.put("jakarta.persistence.jdbc.user", config.get("JDBC_USER"));
+            props.put("jakarta.persistence.jdbc.password", password);
     
             emf = Persistence.createEntityManagerFactory("demo", props);
 
