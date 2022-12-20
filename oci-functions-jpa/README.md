@@ -27,11 +27,11 @@ Fn CLI ツールをダウンロードします。
 curl -LSs https://raw.githubusercontent.com/fnproject/cli/master/install | sh
 ```
 
-下記のドキュメントを参照して、fn コマンドが正常に動作するようにします。
+下記のドキュメントを参照して、fn コマンドが正常に動作するように設定を行います。
 https://docs.oracle.com/ja-jp/iaas/Content/Functions/Tasks/functionsconfiguringclient.htm
 
 
-## ビルド＆デプロイ
+## ビルド＆デプロイ＆実行
 
 ```bash
 # テスト - ネイティブ・イメージ構成情報は以下のディレクトリに作成される
@@ -45,4 +45,7 @@ fn build
 
 # デプロイ
 fn deploy --app <application name>
+
+# 実行
+echo -n 1 | fn invoke <application name> graaljpafunc
 ```
