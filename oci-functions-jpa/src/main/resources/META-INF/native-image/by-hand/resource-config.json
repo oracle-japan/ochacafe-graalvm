@@ -1,8 +1,2 @@
 {
-  "bundles":[
-    {
-      "name":"org.eclipse.persistence.exceptions.i18n.DatabaseExceptionResource",
-      "classNames":["org.eclipse.persistence.exceptions.i18n.DatabaseExceptionResource"]
-    }
-  ]
 }

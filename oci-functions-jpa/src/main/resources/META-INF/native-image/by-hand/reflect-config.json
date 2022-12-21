@@ -1,13 +1,2 @@
 [
-  {
-    "name" : "com.oracle.bmc.ClientRuntime",
-    "allDeclaredConstructors" : true,
-    "allPublicConstructors" : true,
-    "allDeclaredMethods" : true,
-    "allPublicMethods" : true,
-    "allDeclaredFields" : true,
-    "allPublicFields" : true,
-    "allDeclaredClasses" : true,
-    "allPublicClasses" : true
-  }
 ]
